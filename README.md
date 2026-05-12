@@ -62,6 +62,7 @@ A family of nine open specifications for the answer-engine and agent era. Each s
 | [Student AI Disclosure](https://github.com/mizcausevic-dev/student-ai-disclosure-spec) | Student-side disclosure attached to submitted work |
 | [Classroom AI AUP](https://github.com/mizcausevic-dev/classroom-ai-aup-spec) | District / school / course AI policy (third leg of the EdTech trio) |
 | [AI Incident Card](https://github.com/mizcausevic-dev/ai-incident-card-spec) | Post-incident disclosure for AI agents — references this spec via `affected.agent_card_uris[]` |
+| [Clinical AI Disclosure](https://github.com/mizcausevic-dev/clinical-ai-disclosure-spec) | **HealthTech vertical** — vendor disclosure for healthcare AI (HIPAA / FDA / SaMD). References this spec via `agent_card_uri`. |
 
 ### Related testing artifact
 
