@@ -63,6 +63,12 @@ A family of nine open specifications for the answer-engine and agent era. Each s
 | [Classroom AI AUP](https://github.com/mizcausevic-dev/classroom-ai-aup-spec) | District / school / course AI policy (third leg of the EdTech trio) |
 | [AI Incident Card](https://github.com/mizcausevic-dev/ai-incident-card-spec) | Post-incident disclosure for AI agents — references this spec via `affected.agent_card_uris[]` |
 
+### Related testing artifact
+
+| Repo | What it does |
+|---|---|
+| [`prompt-injection-bench`](https://github.com/mizcausevic-dev/prompt-injection-bench) | 30-attack corpus + Python harness for prompt injection. Every record carries an `agent_card_refusal_categories` back-ref to this spec's `refusal_taxonomy[].category` — grep your declared categories against the corpus to test whether your stated commitments hold under attack. |
+
 ---
 
 **Connect:** [LinkedIn](https://www.linkedin.com/in/mirzacausevic/) · [Kinetic Gain](https://kineticgain.com) · [Medium](https://medium.com/@mizcausevic/) · [Skills](https://mizcausevic.com/skills/)
