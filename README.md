@@ -1,5 +1,8 @@
 # Agent Cards
 
+[![Validate examples](https://github.com/mizcausevic-dev/agent-cards-spec/actions/workflows/validate.yml/badge.svg)](https://github.com/mizcausevic-dev/agent-cards-spec/actions/workflows/validate.yml)
+[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+
 A draft specification for **Agent Cards** — declarative documents that disclose what an AI agent is, what it can do, what it refuses, and how it has been evaluated.
 
 HuggingFace gave models a way to disclose themselves through model cards. Agents need the same — but the disclosure surface is *different*. Agents have **tool surfaces, refusal behavior, memory persistence, and deployment posture** that models alone do not. An Agent Card is the document that makes those properties machine-readable, auditable, and comparable across agents.
